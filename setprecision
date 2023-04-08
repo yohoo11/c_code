@@ -1,0 +1,14 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+	double h;
+	double w1, w2;
+	double s;
+	h = 300.00 / 15.00;
+	s = ((15.00 + 25.00) * h) / 2;
+	cout << fixed << setprecision(2);
+	cout <<s << endl;
+	return 0;
+}
